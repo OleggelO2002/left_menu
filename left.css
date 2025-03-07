@@ -13,7 +13,9 @@ height: auto !important;
 border-radius: 0px 15px 15px 15px;
 padding-bottom: 0px !important;
 }
-
+.gc-user-user {
+margin-left: 330px !important;
+}
 .gc-account-user-submenu-bar-notifications_button_small {
 left: 240px !important; 
 height: auto !important;
