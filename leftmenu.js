@@ -4,8 +4,6 @@ let curLayoutID;
 if ((curLayoutID = /\/layout\/(\d+)\//.exec(document.currentScript.src)) !== null)
     curLayoutID = curLayoutID[1];
 
-CSSinjection(remakeProxyX + "/pl/layout/" + curLayoutID + "/2/styles.css");
-
 $( () => {
     setTimeout( () => {
 
