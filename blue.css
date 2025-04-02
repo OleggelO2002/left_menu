@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+.menu-item a {
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.0) !important;
+
+}
+.gc-account-leftbar .gc-account-user-menu li a {
+background: #A0C4F9; 
+}
+.gc-account-leftbar .gc-account-user-menu li a:hover {
+background: #7EA3DA; 
+}
+
+.select > a {
+background: #A0C4F9 !important;
+}
+
+.gc-fade-wrapper {
+background: #fff;  
+z-index: -1
+}
+.gc-account-leftbar {
+background: #fff;  
+margin-left: 10px;
+}
+
+.menu-item a[title]::after{
+color: #fff;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+margin-top: 25px;
+}
+.menu-item-icon {
+margin-top: 13px;    
+}
+.menu-item-notifications_button_small .menu-item-icon {
+margin-top: 0px;     
+}
+.menu-item-profile .menu-item-icon {
+margin-top: 0px;    
+}
+.notify-count {
+color: #A0C4F9 !important;    
+background: #fff !important;
+}
+.menu-item-teach > a .notify-count {
+margin-top: 13px;   
+}
+.custom-submenu a {
+font-family: 'Montserrat';
+font-weight: 500 !important;
+color: #fff !important;
+}
+.custom-submenu li:hover {
+    background: #7EA3DA !important;
+}
+
+.custom-submenu .notify-count {
+    position: relative !important;
+    top: -4px;
+    left: 45px !important;
+}
+.menu-item.active > a {
+ background: #A0C4F9 !important;    
+}
+.menu-item.active > a:hover {
+background: #7099d5 !important;   
+}
+
+.selected > a {
+background: #A0C4F9 !important;   
+}
+.selected > a:hover {
+background: #7099d5 !important;   
+}
+
+#searchWrapper {
+background: #A0C4F9 !important;      
+}
+.logo-link img {
+top: -40px !important;    
+}
+
+
+
+
+.lesson-list {
+background: transparent;    
+}
+.gc-main-content{
+background: #fff !important;      
+}
+
+.lesson-list li .info {
+background: #F7F7FF;
+border-left: 0px !important;
+}
+
+.lesson-list li {
+border-radius: 15px;
+}
+
+.lesson-list li .item-image {
+position: absolute !important;
+left: auto;
+top: 30px;
+bottom: auto;
+right: 30px !important;
+height: 180px;
+width: 180px !important;
+
+}
+.hidden-xs {
+display: none;    
+}
+.lesson-list li a {
+background: #F7F7FF;
+}
+.info{
+margin-left: 20px !important;    
+background: #F7F7FF !important;
+background-color: #F7F7FF !important;
+min-height: 240px;
+
+}
+.user-state-bg{
+background: #F7F7FF !important;    
+}
+
+
+.lesson-list li .title {
+font-family: 'Montserrat';
+font-weight: 600 !important;
+color: #363636!important;
+font-size: 30px;
+margin-top: 40px;
+margin-bottom: 16px;
+}
+
+.lesson-list .description {
+font-family: 'Montserrat';
+font-weight: 400 !important;
+color: #717171!important;    
+width: 70%;
+}
+.page-control_stream-view {
+background: #fff;    
+}
+
+.main-page-block {
+margin-left: 60px !important;   
+}
