@@ -1,4 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+/* Добавляем новые иконки через ::before */
+.menu-item .menu-item-icon {
+  opacity: 0;
+  width: 24px !important; /* Сохраняем место для иконки */
+  height: 24px !important;
+  margin-right: 8px !important; /* Если был отступ */
+}
+
+.menu-item a[title]::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 10px;
+  top: 30px;;
+  transform: translateY(-50%);
+  z-index: 99999 !important;
+}
+
+/* Индивидуальные иконки для каждого пункта */
+.menu-item a[title="Обучение"]::before {
+  background-image: url('https://static.tildacdn.com/tild6338-3035-4466-b865-653337656565/teach-icon-1.svg');
+}
+
+.menu-item a[title="Apps"]::before {
+  background-image: url('https://static.tildacdn.com/tild3939-3436-4636-b139-616562323030/chatium-icon-1_3.svg');
+}
+
+.menu-item a[title="Уведомления"]::before {
+  background-image: url('https://static.tildacdn.com/tild3533-3238-4531-a566-653739333864/notifications-icon-1.svg');
+}
+
+.menu-item a[title="Сообщения"]::before {
+  background-image: url('https://static.tildacdn.com/tild3533-6135-4362-a663-336163383935/notifications-icon-1.svg');
+}
+
+.custom-submenu{
+ margin-left: 40px;   
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 .menu-item a {
 box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.0) !important;
@@ -28,7 +73,8 @@ margin-left: 10px;
 color: #fff;
 font-family: 'Montserrat';
 font-style: normal;
-font-weight: 500;
+font-size: 16px;
+font-weight: 600;
 margin-top: 25px;
 }
 .menu-item-icon {
@@ -150,4 +196,7 @@ background: #fff;
 
 .main-page-block {
 margin-left: 60px !important;   
+}
+.menu-item-notifications > a .notify-count {
+top: 20px;    
 }
