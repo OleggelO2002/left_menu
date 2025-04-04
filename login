@@ -1,0 +1,628 @@
+/* РћСЃРЅРѕРІРЅС‹Рµ СЃС‚РёР»Рё */
+body {
+  background: var(--main-color, #F3EFE7);
+  padding-bottom:  0;
+}
+.float-row .btn-success {
+background-color: #3D9889    
+}
+.btn-remind {
+margin-bottom: 20px;    
+}
+.html-content a {
+color: #3D9889;
+font-weight: bold;
+}
+
+
+
+.standard-logo,
+.logo.gc-account-logo {
+  display:none;
+}
+.empty-breadcrumbs {
+  display:none;
+}
+.main-page-block {
+   padding-top: 80px!important;
+   padding-bottom: 10vh!important;
+   min-height: 88vh;
+   display: flex;
+   align-items: center;
+}
+.xdget-loginUserForm {
+  background: none!important;
+  transition: none!important;
+}
+.xdget-loginUserForm.standard-form {
+  padding: 0!important;
+  max-width: none!important;
+}
+.xdget-loginUserForm:not(.with-image) .register-form,
+.xdget-loginUserForm:not(.with-image) .login-form,
+.xdget-loginUserForm:not(.with-image) .logined-form,
+.xdget-loginUserForm:not(.with-image) .remind-block,
+.xdget-loginUserForm:not(.with-image) .login-block {
+  background: var(--color-1, white);
+  padding: 60px 60px !important;
+  border-radius: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.xdget-loginUserForm:not(.with-image) .form-col .remind-block,
+.xdget-loginUserForm:not(.with-image) .form-col .login-block {
+  padding: 0 !important;
+  width: 100%;
+}
+.xdget-loginUserForm.with-image .register-form .form-col,
+.xdget-loginUserForm.with-image .login-form .form-col,
+.xdget-loginUserForm.with-image .logined-form .form-col,
+.xdget-loginUserForm.with-image .remind-block .form-col,
+.xdget-loginUserForm.with-image .login-block .form-col {
+  background: var(--color-1, white);
+  padding: 60px 60px !important;
+  border-radius: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.xdget-loginUserForm .xdget-header,
+.remind-block h2 {
+  font-family: var(--font-family-1) !important;
+  background: none!important;
+  font-style: normal;
+  font-weight: normal!important;
+  font-size: 35px!important;
+  line-height: 39px!important;
+  margin-bottom: 30px;
+
+}
+.xdget-loginUserForm .logined-form,
+.xdget-loginUserForm .register-form, 
+.xdget-loginUserForm .login-form,
+.xdget-loginUserForm .remind-block {
+  position: relative;
+}
+.xdget-loginUserForm .logined-form h2,
+.xdget-loginUserForm .register-form h2, 
+.xdget-loginUserForm .login-form h2,
+.xdget-loginUserForm .remind-block h2 {
+  width: 100%;
+  font-weight: bold!important;
+  color: var(--color-0, black);
+}
+.xdget-loginUserForm .register-form h2 {
+
+}
+.xdget-loginUserForm .remind-block h2 {
+  font-size: 35px!important;
+}
+.xdget-loginUserForm .logined-form h2,
+.xdget-loginUserForm .login-form h2 {
+  font-size: 0!important;
+  line-height: 0!important;
+}
+.xdget-loginUserForm .login-form h2:before {
+  content: "Войти";
+  font-size: 35px!important;
+  line-height: 39px!important;
+  display: block;
+
+}
+html[lang="en"] .xdget-loginUserForm .login-form h2:before {
+  content: "Log in";
+}
+
+.xdget-loginUserForm .remind-block h2 {
+  font-size: 35px!important;
+  line-height: 39px!important;
+}
+.xdget-loginUserForm .remind-block h2:before {
+  display: none;
+}
+.xdget-loginUserForm .logined-form h2:before {
+  font-size: 35px!important;
+  line-height: 39px!important;
+  display: block;
+}
+html[lang="en"] .xdget-loginUserForm .logined-form h2:before {
+  content: "Hello!";
+}
+
+.xdget-loginUserForm a, .btn-link {
+  font-family: var(--font-family-2) !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px!important;
+  line-height: 130%;
+  color: var(--color-17, #415A80)!important;
+  text-decoration: none !important;
+  border: none !important;
+  border-bottom: 1px solid var(--color-17, #A4C6F1) !important;
+  transition: border-color .2s;
+  padding: 0;
+  outline: none!important; 
+  background: none!important; 
+}
+.xdget-loginUserForm a, .xdget-loginUserForm .btn-link:hover {
+  border-bottom: 1px solid var(--color-3-c, #415A80) !important;
+}
+input[type="text"], input[type="password"] {
+  font-family: var(--font-family-2) !important;
+  background: var(--color-12, #f7f7f7)!important;
+  color: var(--color-0, black)!important;
+  border-radius: 3px!important;
+  padding: 10px 14px!important;
+  border: none!important;
+  box-shadow: none!important;
+  outline: none!important; 
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 38px;
+  height: auto!important;
+}
+.xdget-loginUserForm .form-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.xdget-loginUserForm .btn-success,
+.xdget-loginUserForm .btn-primary {
+  font-family: var(--font-family-2) !important;
+  flex: 1;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background: var(--color-3, #3D9889)!important;
+  border-radius: 6px;
+  border: none!important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 100%;
+  padding: 20px 15px!important;
+  outline: none!important; 
+  box-shadow: none!important;
+  flex: 100%;
+  transition:all .3s;
+}
+.xdget-loginUserForm .btn-success:hover,
+.xdget-loginUserForm .btn-primary:hover {
+  transform:translatey(-1px)
+}
+.xdget-loginUserForm .btn-success.btn-error,
+.xdget-loginUserForm .btn-primary.btn-error {
+  background: var(--color-8-1, #FFB2B2)!important;
+  color: var(--color-9, #BF3939)!important;
+  pointer-events: none;
+}
+
+html[lang="en"] .xdget-loginUserForm .login-form .btn-success:not(.btn-error):after {
+  content: ""
+}
+
+.remind-block h2 + .form-group label {
+  display:none;
+}
+.xdget-loginSystemPage .form-field-email:before,
+.xdget-loginSystemPage .form-field-password:before,
+.xdget-loginSystemPage .form-field-full_name:before,
+.remind-block label,
+.remind-block h2 + .form-group:before {
+  font-family: var(--font-family-2) !important;
+  color: var(--color-0, black)!important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 110%;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+.xdget-loginSystemPage .form-field-email:before,
+.remind-block h2 + .form-group:before {
+  content: "Почта";
+} 
+.xdget-loginSystemPage .form-field-password:before {
+  content: "Пароль";
+}
+html[lang="en"] .xdget-loginSystemPage .form-field-password:before {
+  content: "Password";
+}
+
+html[lang="en"] .xdget-loginSystemPage .form-field-full_name:before {
+  content: "First Name and Last Name.";
+}
+
+.remind-block .btn-link {
+  display: block;
+  margin: 0 auto
+}
+
+/* Р РµРіРёСЃС‚СЂР°С†РёСЏ */
+.xdget-loginUserForm .form-buttons .xdget-container .btn-success {
+  width: 100%;
+}
+.xdget-loginUserForm .form-buttons .xdget-container:first-child {
+  flex: 100%;
+}
+.xdget-loginUserForm .register-form .btn-login { 
+  display: block;
+  margin: 0 10px;
+  float: none!important;
+}
+
+/* РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ СЃ С‚Р°РєРѕР№ РїРѕС‡С‚РѕР№ СѓР¶Рµ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅ, РІРІРµРґРёС‚Рµ РїР°СЂРѕР»СЊ */
+.xdget-loginUserForm .login-block .has-registered-message {
+  font-family: var(--font-family-2) !important;
+  color: var(--color-10, #323232);
+}
+.xdget-loginUserForm .login-block .input-group {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.xdget-loginUserForm .login-block .btn-success {
+  margin:0;
+  padding: 20px 22px!important;
+}
+.xdget-loginUserForm .login-block .btn-success .glyphicon  {
+  display:none;
+}
+
+
+/* РќРµР°РІС‚РѕСЂРёР·РѕРІР°РЅРЅС‹Р№ */
+.xdget-loginUserForm .reg-or-remind {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  color: var(--color-0, black)!important;
+  margin-top: 20px;
+}
+.xdget-loginUserForm .login-form .reg-or-remind {
+  justify-content: space-between;
+}
+.xdget-loginUserForm .reg-or-remind .btn-remind {
+  margin-right: 15px;
+}
+.xdget-loginUserForm .xdget-socialUserFormField {
+  text-align: center;
+}
+.xdget-loginUserForm .xdget-socialUserFormField .btn-social-icon {
+  outline: none!important; 
+  border: none!important;
+  box-shadow: none!important;
+  transition: all 0.2s;
+  border-radius: 6px;
+  margin-bottom: 0;
+}
+.btn-social-icon.btn-chatium img {
+  filter: brightness(100);
+}
+.btn-social-icon.btn-chatium {
+  background: #333333 !important;
+}
+.btn-facebook, .btn-facebook:hover, .btn-facebook:focus, .btn-facebook:active, .btn-facebook.active, .open>.dropdown-toggle.btn-facebook {
+  background: #3b5998 !important;
+}
+.btn-vk, .btn-vk:hover, .btn-vk:focus, .btn-vk:active, .btn-vk.active, .open>.dropdown-toggle.btn-vk {
+  background: #587ea3 !important;
+} 
+.btn-google-plus, .btn-google-plus:hover, .btn-google-plus:focus, .btn-google-plus:active, .btn-google-plus.active, .open>.dropdown-toggle.btn-google-plus  {
+  background: #dd4b39 !important;
+}
+
+/* РђРІС‚РѕСЂРёР·РѕРІР°РЅРЅС‹Р№ */
+.xdget-loginUserForm .logined-form .xdget-header {
+  margin-bottom: 20px;
+}
+.xdget-loginUserForm .logined-form .xdget-html {
+  color: var(--color-14, #171717)!important;
+  font-style: normal;
+  font-weight: normal;
+  font-size:22px;
+  line-height: 110%;
+  text-align:center;
+}
+.xdget-loginUserForm .logined-form .form-buttons {
+  display: flex;
+  flex-direction: column; 
+  flex-wrap: nowrap;
+}
+.xdget-loginUserForm .btn-primary {
+  width: 100%;
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+
+/* Р’С…РѕРґ С‡РµСЂРµР· С‡Р°С‚РёСѓРј */
+.xdget-loginUserForm.standard-form.for-chatium {
+  box-shadow: none!important;
+  color: var(--color-0, black)!important;
+  font-family: var(--font-family-2) !important;
+  padding-top: 85px;
+}
+.xdget-loginUserForm.standard-form.for-chatium .btn-success {
+  width: 100%;
+}
+.xdget-loginUserForm.standard-form.for-chatium .login-form .btn.btn-link.btn-cancel {
+  width: auto;
+  display: block;
+  margin: 0;
+}
+.xdget-loginUserForm.standard-form.for-chatium .chatium-qr-code {
+  max-width: 200px;
+  margin: 0;
+  display: block;
+}
+.xdget-loginUserForm.standard-form.for-chatium .chatium-instructions br {
+  content: "";
+}
+.xdget-loginUserForm.standard-form.for-chatium .chatium-instructions br:before {
+  content: " ";
+}
+
+
+.xdget-common-user-form.hide-content>.xdget-block~.global-confirm-checkbox-block {
+  display: none;
+}
+.xdget-common-user-form .global-confirm-checkbox-block {
+  color: var(--color-0, black);
+  font-family: var(--font-family-2);
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.xdget-common-user-form .global-confirm-checkbox-block a {
+  color: var(--color-17, #415A80)!important;
+  border-bottom: 1px solid transparent!important;
+  transition: opacity .2s;
+  text-decoration: none !important;
+  line-height: 110%!important;
+  display: inline;
+  opacity: 1;
+  transition: border-color .2s;
+  font-size: inherit!important;
+}
+.xdget-common-user-form .global-confirm-checkbox-block a:hover {
+  border-color: var(--color-17, #415A80)!important;
+}
+.xdget-common-user-form .global-confirm-checkbox,
+.xdget-common-user-form .append-handle-input{
+  display:none!important;
+}
+.xdget-common-user-form .global-confirm-checkbox + .checkbox-text,
+.xdget-common-user-form .append-handle-input + .checkbox-text{
+  position: relative;
+  margin: 0!important;
+  padding-left: calc(18px + 0.8em);
+}
+.xdget-common-user-form .global-confirm-checkbox + .checkbox-text:before,
+.xdget-common-user-form .append-handle-input + .checkbox-text:before{
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: 0; : 0;
+  width: 22px;
+  height: 22px;
+  margin-right: 0.5em;
+  border: 1px solid var(--color-3);
+  background-color: var(--color-1);
+  border-radius: 6px;
+  opacity: 0.5;
+  transition: background-color 0.2s, border-color 0.2s, opacity 0.2s;
+  cursor: pointer;
+}
+.xdget-common-user-form .global-confirm-checkbox:not(:disabled):not(:checked) + .checkbox-text:hover::before,
+.xdget-common-user-form .append-handle-input:not(:disabled):not(:checked) + .checkbox-text:hover::before{
+  opacity: 1;
+}
+.xdget-common-user-form .global-confirm-checkbox:checked+.checkbox-text::before,
+.xdget-common-user-form .append-handle-input:checked+.checkbox-text::before{
+  border-color: var(--color-3-c, #3D9889);
+  background: var(--color-3-c, #3D9889) var(--checkmark-icon) center no-repeat;
+  opacity: 1;
+}
+
+.image-form {
+  display: flex;
+  overflow: hidden;
+  max-width: 1000px;
+  margin: 0 auto !important;
+  border-radius: 16px;
+  background: var(--color-1, white);
+}
+.xdget-loginUserForm:not(.with-image) .image-form {
+  border-radius: 0;
+}
+.image-form > .xdget-col {
+  padding: 0!important;
+  min-height: auto;
+  align-self: stretch;
+  float: none;
+  flex: 0 0 50%;
+  width: 50%;
+  margin: 0 auto;
+}
+.image-form .xdget-image {
+  width: 100%; height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.image-form .form-col {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+.xdget-loginUserForm:not(.with-image) .state-form:not(.logined-form) .image-form  .xdget-header, 
+.xdget-loginUserForm:not(.with-image) .image-form .remind-block h2,
+.xdget-loginUserForm:not(.with-image) .image-form .loginBlock h2 {
+  text-align:center;
+}
+.xdget-loginUserForm:not(.with-image) .image-form {
+  display: block;
+  background: none;
+}
+.xdget-loginUserForm:not(.with-image) .image-form > .xdget-col.image-col {
+  display: none;
+}
+.xdget-loginUserForm:not(.with-image) .image-form > .xdget-col {
+  flex: 0 0 100%;
+  width: 100%;
+}
+.xdget-loginUserForm:not(.with-image) {
+  min-width: 500px;
+}
+.xdget-loginUserForm .form-buttons {
+  justify-content: stretch;
+}
+.xdget-loginUserForm .form-buttons .xdget-col {
+  flex: 100%;
+}
+.xdget-loginUserForm .xdget-socialUserFormField {
+  width: 100%;
+}
+.xdget-loginUserForm .xdget-socialUserFormField>div {
+  display: flex;
+  width: 100%;
+}
+.xdget-loginUserForm .login-form .btn-success,
+.xdget-loginUserForm .register-form .btn-success {
+  margin-bottom: 10px
+}
+.xdget-loginUserForm .xdget-socialUserFormField > div > .btn {
+  flex: 33%;
+  height: 38px;
+}
+.xdget-loginUserForm .xdget-socialUserFormField > div > .btn > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#chatium-auth-btn img {
+  display: none;
+}
+#chatium-auth-btn {
+  background: #333333 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='22' viewBox='0 0 13 22' fill='none'%3E%3Cpath d='M0.666504 2.91935C0.666504 1.79696 1.57638 0.887085 2.69876 0.887085H10.6343C11.7566 0.887085 12.6665 1.79696 12.6665 2.91935V19.0807C12.6665 20.203 11.7566 21.1129 10.6343 21.1129H2.69876C1.57638 21.1129 0.666504 20.203 0.666504 19.0807V2.91935Z' fill='white'/%3E%3Cpath d='M4.24715 3.4516C4.24715 3.05075 4.57211 2.7258 4.97296 2.7258H8.45684C8.85769 2.7258 9.18264 3.05075 9.18264 3.4516C9.18264 3.85246 8.85769 4.17741 8.45684 4.17741H4.97296C4.57211 4.17741 4.24715 3.85246 4.24715 3.4516Z' fill='%23333333'/%3E%3Cpath d='M5.40844 18.5484C5.40844 18.1475 5.7334 17.8226 6.13425 17.8226H7.29554C7.6964 17.8226 8.02135 18.1475 8.02135 18.5484C8.02135 18.9492 7.6964 19.2742 7.29554 19.2742H6.13425C5.7334 19.2742 5.40844 18.9492 5.40844 18.5484Z' fill='%23333333'/%3E%3C/svg%3E") center no-repeat !important;
+}
+
+.xdget-loginUserForm .xdget-socialUserFormField > div > .btn-social-icon i{
+  display:none;
+}
+
+.btn-vk,
+.btn-vk:hover,
+.btn-vk:focus,
+.btn-vk:active,
+.btn-vk.active,
+.open>.dropdown-toggle.btn-vk {
+  background:#3082FF url("data:image/svg+xml,%3Csvg width='18' height='11' viewBox='0 0 18 11' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9.8756 10.4582C9.8756 10.4582 10.1979 10.4231 10.363 10.249C10.5141 10.0896 10.5088 9.78864 10.5088 9.78864C10.5088 9.78864 10.4887 8.38349 11.1534 8.17602C11.8084 7.97198 12.6495 9.53487 13.5421 10.1359C14.2164 10.5902 14.7282 10.4908 14.7282 10.4908L17.1134 10.4582C17.1134 10.4582 18.3606 10.3828 17.7693 9.41999C17.7204 9.34111 17.4243 8.70756 15.9963 7.40614C14.5002 6.04386 14.7011 6.26419 16.502 3.90742C17.599 2.47227 18.0375 1.59609 17.9003 1.22144C17.7702 0.863077 16.9632 0.958239 16.9632 0.958239L14.2784 0.974528C14.2784 0.974528 14.0792 0.947951 13.9316 1.03454C13.7875 1.11942 13.6941 1.31746 13.6941 1.31746C13.6941 1.31746 13.2696 2.42769 12.7028 3.37245C11.5071 5.36486 11.0294 5.47031 10.8337 5.34686C10.3787 5.05794 10.4922 4.18776 10.4922 3.56964C10.4922 1.63809 10.7909 0.833071 9.91141 0.624742C9.6197 0.555299 9.40484 0.509861 8.65809 0.502145C7.69998 0.492715 6.88947 0.505574 6.43006 0.725906C6.12438 0.872507 5.88856 1.2 6.03267 1.21886C6.20997 1.24201 6.61173 1.32517 6.82484 1.6098C7.09996 1.97759 7.09035 2.80233 7.09035 2.80233C7.09035 2.80233 7.24843 5.07595 6.7209 5.35801C6.35932 5.55176 5.86323 5.15654 4.79682 3.34845C4.25095 2.42254 3.83871 1.3989 3.83871 1.3989C3.83871 1.3989 3.75923 1.20772 3.61686 1.10484C3.44481 0.98053 3.20462 0.94195 3.20462 0.94195L0.653439 0.958239C0.653439 0.958239 0.27002 0.968527 0.129403 1.13228C0.00450795 1.27716 0.119796 1.57808 0.119796 1.57808C0.119796 1.57808 2.11725 6.1656 4.37934 8.47779C6.45365 10.5971 8.80832 10.4582 8.80832 10.4582H9.8756Z' fill='white' /%3E%3C/svg%3E") center no-repeat !important;
+}
+
+.btn-google-plus,
+.btn-google-plus:hover,
+.btn-google-plus:focus,
+.btn-google-plus:active,
+.btn-google-plus.active,
+.open>.dropdown-toggle.btn-google-plus {
+  background:#FF0000 url("data:image/svg+xml,%3Csvg width='21' height='13' viewBox='0 0 21 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M6.60117 7.8V5.57143H12.7684C12.8244 5.89643 12.871 6.22143 12.871 6.64857C12.871 10.3629 10.3705 13 6.60117 13C2.9904 13 0.0700684 10.0936 0.0700684 6.5C0.0700684 2.90643 2.9904 0 6.60117 0C8.36457 0 9.83873 0.640714 10.977 1.69929L9.20428 3.39857C8.71911 2.93429 7.87007 2.39571 6.60117 2.39571C4.37126 2.39571 2.55189 4.23429 2.55189 6.5C2.55189 8.76571 4.37126 10.6043 6.60117 10.6043C9.18562 10.6043 10.156 8.75643 10.3052 7.8H6.60117ZM18.7305 5.57147H20.5966V7.42862H18.7305V9.28576H16.8645V7.42862H14.9985V5.57147H16.8645V3.71433H18.7305V5.57147Z' fill='white' /%3E%3C/svg%3E") center no-repeat !important;
+}
+
+
+@media (max-width: 1000px) {
+  .image-form {
+    display: block;
+    background: none;
+  }
+  .image-form > .xdget-col.image-col {
+    display: none;
+  }
+  .image-form > .xdget-col {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+}
+@media (min-width: 1001px) {
+  .xdget-loginUserForm .state-form:not(.logined-form) .image-form  .xdget-header, 
+  .image-form .remind-block h2,
+  .image-form .loginBlock h2 {
+    text-align:left;
+  }
+  .xdget-loginUserForm.with-image .image-form .remind-block .btn-link {
+    margin-left: 0;
+  }
+  .xdget-loginUserForm:not(.with-image) .image-form {
+    display: block;
+  }
+  .xdget-loginUserForm.with-image .image-form .form-col {
+    min-height: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-page-block > .container {
+    min-width: 62.8%;
+  }
+  .xdget-loginUserForm.standard-form {
+    padding: 100px 0 20px;
+  }
+  .xdget-loginUserForm .xdget-header,
+  .remind-block h2 {
+    font-size: 30px!important;
+  }
+  .xdget-loginUserForm .login-form h2:before,
+  .xdget-loginUserForm .logined-form h2:before {
+    font-size: 30px!important;
+  }
+  .xdget-loginUserForm .remind-block h2 {
+    font-size: 30px!important;
+  }
+}
+@media (max-width: 560px) {
+  .main-page-block > .container {
+    width: 100%;
+  }
+  .xdget-loginUserForm:not(.with-image) .register-form,
+  .xdget-loginUserForm:not(.with-image) .login-form,
+  .xdget-loginUserForm:not(.with-image) .logined-form,
+  .xdget-loginUserForm:not(.with-image) .remind-block,
+  .xdget-loginUserForm:not(.with-image) .login-block {
+    background: var(--color-1, white);
+    padding: 50px 20px !important;
+    border-radius: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .xdget-loginUserForm.with-image .register-form .form-col,
+  .xdget-loginUserForm.with-image .login-form .form-col,
+  .xdget-loginUserForm.with-image .logined-form .form-col,
+  .xdget-loginUserForm.with-image .remind-block .form-col,
+  .xdget-loginUserForm.with-image .login-block .form-col {
+    background: var(--color-1, white);
+    padding: 50px 20px !important;
+    border-radius: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .xdget-loginUserForm .login-form .reg-or-remind {
+    flex-direction: column;
+    align-items: center;
+  }
+  .xdget-loginUserForm a, .btn-link {
+    margin-bottom: 10px;
+  }
+  .xdget-loginUserForm .reg-or-remind .btn-remind {
+    margin-right: 0;
+  }
+  .xdget-loginUserForm .btn-success,
+  .xdget-loginUserForm .btn-primary {
+    font-size: 16px;
+  }
+  .xdget-loginUserForm .xdget-socialUserFormField > div > .btn {
+    height: 45px;
+  }
+  .xdget-loginUserForm:not(.with-image) {
+    min-width: auto;
+  }
+}
