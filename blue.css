@@ -24,11 +24,11 @@
 
 /* Индивидуальные иконки для каждого пункта */
 .menu-item a[title="Обучение"]::before {
-  background-image: url('https://static.tildacdn.com/tild6338-3035-4466-b865-653337656565/teach-icon-1.svg');
+  background-image: url('https://static.tildacdn.com/tild3039-3039-4136-b166-376436306164/teach-icon-1.svg');
 }
 
 .menu-item a[title="Apps"]::before {
-  background-image: url('https://static.tildacdn.com/tild3939-3436-4636-b139-616562323030/chatium-icon-1_3.svg');
+  background-image: url('https://static.tildacdn.com/tild6633-6361-4131-b530-333131313630/chatium-icon-1_2.svg');
 }
 .menu-item-notifications_button_small::before{
 content: "";
@@ -43,28 +43,28 @@ content: "";
   top: 17px;;
   transform: translateY(-50%);
   z-index: 99999 !important;
-  background-image: url('https://static.tildacdn.com/tild6663-6339-4139-a231-663663323464/notifications_button.svg');
+  background-image: url('https://static.tildacdn.com/tild6237-3462-4437-a162-346537616136/notifications_button.svg');
 }
 
 
 .menu-item a[title="Сообщения"]::before {
-  background-image: url('https://static.tildacdn.com/tild6165-3438-4734-a133-343835306163/notifications-icon-1.svg');
+  background-image: url('https://static.tildacdn.com/tild3933-3231-4535-b633-396432623033/notifications-icon-1.svg');
 }
 
 .menu-item a[title="Сайт"]::before {
-  background-image: url('https://static.tildacdn.com/tild3831-3230-4431-a239-613136336262/site-icon.svg');
+  background-image: url('https://static.tildacdn.com/tild3166-6664-4633-b832-306135333634/site-icon.svg');
 }
 
 .menu-item a[title="Ученики"]::before {
-  background-image: url('https://static.tildacdn.com/tild3433-6131-4338-a138-393530336166/student-icon.svg');
+  background-image: url('https://static.tildacdn.com/tild6663-6539-4234-b865-343839386231/member-icon.svg');
 }
 
 .menu-item a[title="CRM"]::before {
-  background-image: url('https://static.tildacdn.com/tild3233-3538-4861-b636-316139616364/crm-icon.svg');
+  background-image: url('https://static.tildacdn.com/tild6131-3835-4163-b066-303963386135/CRM-icob.svg');
 }
 
 .menu-item a[title="Продажи"]::before {
-  background-image: url('https://static.tildacdn.com/tild3962-3461-4331-b762-616238333238/sale-icon.svg');
+  background-image: url('https://static.tildacdn.com/tild3432-3264-4666-b232-343164316664/sale-icon.svg');
 }
 
 
@@ -82,12 +82,9 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.0) !important;
 background: linear-gradient(92.7deg, #FFEECE 25.5%, #FFF5E7 54.5%, #FFEECE 84%);
 }
 .gc-account-leftbar .gc-account-user-menu li a:hover {
-background: linear-gradient(92.7deg, #DBC499 25.5%, #F5E1C2 54.5%, #DBC499 84%);
+background: linear-gradient(92.7deg, #F3DFBA 25.5%, #FFF5E7 54.5%, #F3DFBA 84%) ; 
 }
 
-.select > a {
-background: #31578f !important;
-}
 
 .gc-fade-wrapper {
 background: #fff;  
@@ -99,7 +96,7 @@ margin-left: 10px;
 }
 
 .menu-item a[title]::after{
-color: #fff;
+color: #292929;
 font-family: 'Montserrat';
 font-style: normal;
 font-size: 16px;
@@ -116,7 +113,7 @@ margin-top: 0px;
 margin-top: 0px;    
 }
 .notify-count {
-color: #A0C4F9 !important;    
+color: #3D9889 !important;    
 background: #fff !important;
 }
 .menu-item-teach > a .notify-count {
@@ -124,11 +121,25 @@ margin-top: 13px;
 }
 .custom-submenu a {
 font-family: 'Montserrat';
-font-weight: 500 !important;
-color: #fff !important;
+font-weight: 600 !important;
+color: #292929 !important;
 }
 .custom-submenu li:hover {
-    background: #111111 !important;
+    background: transparent !important;
+}
+.custom-submenu li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 1px;
+    background-color: currentColor; /* цвет подчеркивания = цвет текста */
+    transition: width 0.3s ease;
+}
+
+.custom-submenu li:hover a::after {
+    width: 100%;
 }
 
 .custom-submenu .notify-count {
@@ -137,29 +148,47 @@ color: #fff !important;
     left: 45px !important;
 }
 .menu-item.active > a {
- background: #556680 !important;    
+background: linear-gradient(92.7deg, #F3DFBA 25.5%, #FFF5E7 54.5%, #F3DFBA 84%) !important;
 }
 .menu-item.active > a:hover {
-background: #3f78cb !important;   
+background: linear-gradient(92.7deg, #F3DFBA 25.5%, #FFF5E7 54.5%, #F3DFBA 84%) !important;
 }
 
+
 .selected > a {
-background: #A0C4F9 !important;   
+background: linear-gradient(92.7deg, #F3DFBA 25.5%, #FFF5E7 54.5%, #F3DFBA 84%) !important;
 }
 .selected > a:hover {
-background: #d58f70 !important;   
+background: linear-gradient(92.7deg, #F3DFBA 25.5%, #FFF5E7 54.5%, #F3DFBA 84%) !important;   
 }
 
 #searchWrapper {
-background: #A0C4F9 !important;      
+background: #FFEECE !important;      
 }
 .logo-link img {
 top: -40px !important;    
 }
+.menu-item-notifications > a .notify-count {
+top: 20px;    
+}
+
+.menu-item-notifications_button_small::after {
+    content: "Уведомления";
+    display: inline-block;
+    color: #292929;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    z-index: 9999;
+    top: 7px;
+    left: 46px;
+    pointer-events: none;
+}
 
 
-
-
+/*____________УРОК_________________*/
 .lesson-list {
 background: transparent;    
 }
@@ -225,22 +254,4 @@ background: #fff;
 
 .main-page-block {
 margin-left: 60px !important;   
-}
-.menu-item-notifications > a .notify-count {
-top: 20px;    
-}
-
-.menu-item-notifications_button_small::after {
-    content: "Уведомления";
-    display: inline-block;
-    color: #ffffff;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-size: 16px;
-    font-weight: 600;
-    position: absolute;
-    z-index: 9999;
-    top: 7px;
-    left: 46px;
-    pointer-events: none;
 }
