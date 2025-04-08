@@ -217,7 +217,7 @@ margin-left: 40px;
     content: attr(title); /* Берем текст из атрибута title */
     margin-left: 8px; /* Отступ от иконки */
     font-size: 14px; /* Размер текста */
-    color: #333; /* Цвет текста */
+    color: #292929; /* Цвет текста */
     vertical-align: middle !important; /* Вертикальное выравнивание */
     font-family: 'Manrope', sans-serif; /* Применяем шрифт Manrope */
     font-weight: 700; /* Жирный стиль */ 
@@ -372,3 +372,193 @@ position: relative !important;
 left: 250px !important;
 }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+/* Добавляем новые иконки через ::before */
+.menu-item .menu-item-icon {
+  opacity: 0;
+  width: 24px !important; /* Сохраняем место для иконки */
+  height: 24px !important;
+  margin-right: 8px !important; /* Если был отступ */
+}
+
+.menu-item a[title]::before {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 10px;
+  top: 30px;;
+  transform: translateY(-50%);
+  z-index: 99999 !important;
+}
+
+/* Индивидуальные иконки для каждого пункта */
+.menu-item a[title="Обучение"]::before {
+  background-image: url('https://static.tildacdn.com/tild3039-3039-4136-b166-376436306164/teach-icon-1.svg');
+}
+
+.menu-item a[title="Apps"]::before {
+  background-image: url('https://static.tildacdn.com/tild6633-6361-4131-b530-333131313630/chatium-icon-1_2.svg');
+}
+.menu-item-notifications_button_small::before{
+content: "";
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 8px;
+  top: 17px;;
+  transform: translateY(-50%);
+  z-index: 99999 !important;
+  background-image: url('https://static.tildacdn.com/tild6237-3462-4437-a162-346537616136/notifications_button.svg');
+}
+
+
+.menu-item a[title="Сообщения"]::before {
+  background-image: url('https://static.tildacdn.com/tild3933-3231-4535-b633-396432623033/notifications-icon-1.svg');
+}
+
+.menu-item a[title="Сайт"]::before {
+  background-image: url('https://static.tildacdn.com/tild3166-6664-4633-b832-306135333634/site-icon.svg');
+}
+
+.menu-item a[title="Ученики"]::before {
+  background-image: url('https://static.tildacdn.com/tild6663-6539-4234-b865-343839386231/member-icon.svg');
+}
+
+.menu-item a[title="CRM"]::before {
+  background-image: url('https://static.tildacdn.com/tild6131-3835-4163-b066-303963386135/CRM-icob.svg');
+}
+
+.menu-item a[title="Продажи"]::before {
+  background-image: url('https://static.tildacdn.com/tild3432-3264-4666-b232-343164316664/sale-icon.svg');
+}
+
+
+.custom-submenu{
+ margin-left: 40px;   
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+.menu-item a {
+box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.0) !important;
+
+}
+.gc-account-leftbar .gc-account-user-menu li a {
+background: linear-gradient(92.7deg, #FFEECE 25.5%, #FFF5E7 54.5%, #FFEECE 84%);
+}
+.gc-account-leftbar .gc-account-user-menu li a:hover {
+background: linear-gradient(92.7deg, #F3DFBA 25.5%, #FFF5E7 54.5%, #F3DFBA 84%) ; 
+}
+
+
+.gc-fade-wrapper {
+background: #fff;  
+z-index: -1
+}
+.gc-account-leftbar {
+background: #fff;  
+margin-left: 10px;
+}
+
+.menu-item a[title]::after{
+color: #292929;
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 16px;
+font-weight: 600;
+margin-top: 25px;
+}
+.menu-item-icon {
+margin-top: 13px;    
+}
+.menu-item-notifications_button_small .menu-item-icon {
+margin-top: 0px;     
+}
+.menu-item-profile .menu-item-icon {
+margin-top: 0px;    
+}
+.notify-count {
+color: #3D9889 !important;    
+background: #fff !important;
+}
+.menu-item-teach > a .notify-count {
+margin-top: 13px;   
+}
+.custom-submenu a {
+font-family: 'Montserrat';
+font-weight: 600 !important;
+color: #292929 !important;
+}
+.custom-submenu li:hover {
+    background: transparent !important;
+}
+.custom-submenu li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 1px;
+    background-color: currentColor; /* цвет подчеркивания = цвет текста */
+    transition: width 0.3s ease;
+}
+
+.custom-submenu li:hover a::after {
+    width: 100%;
+}
+
+.custom-submenu .notify-count {
+    position: relative !important;
+    top: -4px;
+    left: 45px !important;
+}
+.menu-item.active > a {
+background: linear-gradient(92.7deg, #F3DFBA 25.5%, #FFF5E7 54.5%, #F3DFBA 84%) !important;
+}
+.menu-item.active > a:hover {
+background: linear-gradient(92.7deg, #F3DFBA 25.5%, #FFF5E7 54.5%, #F3DFBA 84%) !important;
+}
+
+
+.selected > a {
+background: linear-gradient(92.7deg, #F3DFBA 25.5%, #FFF5E7 54.5%, #F3DFBA 84%) !important;
+}
+.selected > a:hover {
+background: linear-gradient(92.7deg, #F3DFBA 25.5%, #FFF5E7 54.5%, #F3DFBA 84%) !important;   
+}
+
+#searchWrapper {
+background: #FFEECE !important;      
+}
+.logo-link img {
+top: -40px !important;    
+}
+.menu-item-notifications > a .notify-count {
+top: 20px;    
+}
+
+.menu-item-notifications_button_small::after {
+    content: "Уведомления";
+    display: inline-block;
+    color: #292929;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    z-index: 9999;
+    top: 7px;
+    left: 46px;
+    pointer-events: none;
+}
+
