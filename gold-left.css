@@ -405,6 +405,18 @@ left: 250px !important;
 .menu-item a[title="Apps"]::before {
   background-image: url('https://static.tildacdn.com/tild6633-6361-4131-b530-333131313630/chatium-icon-1_2.svg');
 }
+.menu-item a[title="Mobile"]::before {
+  background-image: url('https://static.tildacdn.com/tild6633-6361-4131-b530-333131313630/chatium-icon-1_2.svg');
+}
+.menu-item a[title="Служба поддержки"]::before {
+  background-image: url('https://static.tildacdn.com/tild3933-3231-4535-b633-396432623033/notifications-icon-1.svg');
+}
+.menu-item a[title="Покупки"]::before {
+  background-image: url('https://static.tildacdn.com/tild3432-3264-4666-b232-343164316664/sale-icon.svg');
+}
+.menu-item-sales .notify-count {
+margin-top: 13px;    
+}
 .menu-item-notifications_button_small::before{
 content: "";
   display: inline-block;
