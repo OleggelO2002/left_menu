@@ -149,11 +149,11 @@ width: 70%;
 .page-control_stream-view {
 background: #fff;    
 }
-
+@media screen and (min-width: 768px) {
 .main-page-block {
 margin-left: 100px !important;   
 }
-
+}
 
 
 
