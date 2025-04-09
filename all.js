@@ -169,6 +169,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+
 document.addEventListener("DOMContentLoaded", function () {
   // Наблюдаем за изменениями в DOM
   const observer = new MutationObserver(function (mutationsList) {
@@ -316,8 +317,7 @@ window.addEventListener('resize', () => {
 
 
 
-
-
+document.addEventListener("DOMContentLoaded", function() {
 $(document).ready(function () {
   let typingTimer;
   const typingDelay = 1000;
@@ -437,6 +437,8 @@ $(document).ready(function () {
     }, 300); // Ожидание перед проверкой, чтобы элементы успели подгрузиться
   });
 });
+});
+
 
 
 
@@ -494,10 +496,6 @@ tdElements.forEach(function(td, index) {
     afterElement.classList.add('lesson-number'); // Добавляем класс
     td.appendChild(afterElement); // Добавляем созданный элемент в конец td
 });
-
-
-
-
 
 
 
