@@ -10,10 +10,10 @@ const img = document.createElement('img');
 // Проверяем ширину экрана
 if (window.innerWidth <= 768) {
   // Мобильная версия
-  img.src = 'https://static.tildacdn.com/tild6235-3339-4230-b030-383864383531/Group_48097271.png';
+  img.src = 'https://static.tildacdn.com/tild6266-3566-4166-b565-353935386661/Group_48097271.png';
 } else {
   // Десктопная версия
-  img.src = 'https://static.tildacdn.com/tild3262-3030-4435-b436-346233663133/Group_48097286.png';
+  img.src = 'https://static.tildacdn.com/tild6437-6131-4265-b333-313761336536/Group_48097257.png';
 }
 
 img.alt = 'Image';  // Альтернативный текст
