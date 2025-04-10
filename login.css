@@ -1,3 +1,61 @@
+.global-confirm-checkbox-block {
+margin-top: 10px !important;
+padding-bottom: 0;
+}
+
+@media (min-width: 768px) {
+.container {
+position: absolute !important;
+top: 200px;
+left: 17%;
+}    
+.main-page-block::before {
+  content: "";
+  position: absolute !important;
+  display: block;
+  top: 0;
+  background-color: #3D9889;
+  width: 100%;          /* Ширина прямоугольника — можно задать фиксированную при необходимости */
+  height: 60px;         /* Высота прямоугольника — меняй под свои нужды */
+}
+.main-page-block::after {
+  content: "";
+  position: absolute;
+  top: -20px; /* можно изменить на top/left/right при необходимости */
+  left: 47%;
+  width: 160px; /* задай нужную ширину */
+  height: 100px; /* и высоту */
+  background-image: url('https://static.tildacdn.com/tild6666-3238-4762-b537-343661656535/Mask_group.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}   
+}
+@media (max-width: 768px) {
+    
+.main-page-block::before {
+  content: "";
+  position: absolute !important;
+  display: block;
+  top: 0;
+  background-color: #3D9889;
+  width: 100%;          /* Ширина прямоугольника — можно задать фиксированную при необходимости */
+  height: 60px;         /* Высота прямоугольника — меняй под свои нужды */
+}
+.main-page-block::after {
+  content: "";
+  position: absolute;
+  top: -20px; /* можно изменить на top/left/right при необходимости */
+  left: 32%;
+  width: 160px; /* задай нужную ширину */
+  height: 100px; /* и высоту */
+  background-image: url('https://static.tildacdn.com/tild6666-3238-4762-b537-343661656535/Mask_group.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}   
+}
+
 /* РћСЃРЅРѕРІРЅС‹Рµ СЃС‚РёР»Рё */
 body {
   background: var(--main-color, #F3EFE7);
@@ -364,9 +422,7 @@ html[lang="en"] .xdget-loginSystemPage .form-field-full_name:before {
 }
 
 
-.xdget-common-user-form.hide-content>.xdget-block~.global-confirm-checkbox-block {
-  display: none;
-}
+
 .xdget-common-user-form .global-confirm-checkbox-block {
   color: var(--color-0, black);
   font-family: var(--font-family-2);
@@ -389,7 +445,6 @@ html[lang="en"] .xdget-loginSystemPage .form-field-full_name:before {
 }
 .xdget-common-user-form .global-confirm-checkbox,
 .xdget-common-user-form .append-handle-input{
-  display:none!important;
 }
 .xdget-common-user-form .global-confirm-checkbox + .checkbox-text,
 .xdget-common-user-form .append-handle-input + .checkbox-text{
