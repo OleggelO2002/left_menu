@@ -1,3 +1,17 @@
+@media (min-width: 768px) { 
+.btn-login {
+position: absolute;
+left: 390px;
+}
+}
+@media (max-width: 768px) { 
+.btn-login {
+position: absolute;
+left: 290px;
+top: 60px;
+}
+}
+
 /* Фон прелоадера */
 #preloader {
     position: fixed;
