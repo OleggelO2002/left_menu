@@ -1,4 +1,3 @@
-// Найдем элемент с классом "container"
 const container = document.querySelector('.container');
 
 // Создаем новый элемент (например, div)
