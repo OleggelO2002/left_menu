@@ -481,20 +481,23 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-// Получаем все элементы td
-var tdElements = document.querySelectorAll('.lesson-list li table td');
+// Получаем только td с текстом, исключая td с изображением
+var tdElements = document.querySelectorAll('.lesson-list li table td.item-main-td');
 
 // Проходимся по каждому элементу и добавляем номер урока
 tdElements.forEach(function(td, index) {
-    var lessonNumber = index + 1; // Увеличиваем индекс на 1 для нумерации с 1
-    
-    var lessonIdClass = 'lesson-id-' + lessonNumber; // Создаём уникальный класс для урока
-    td.classList.add(lessonIdClass); // Добавляем класс к td элементу
+    var lessonNumber = index + 1; // Нумерация с 1
 
-    var afterElement = document.createElement('span'); // Создаем элемент span
-    afterElement.textContent = "Урок " + lessonNumber; // Устанавливаем текст
-    afterElement.classList.add('lesson-number'); // Добавляем класс
-    td.appendChild(afterElement); // Добавляем созданный элемент в конец td
+    var lessonIdClass = 'lesson-id-' + lessonNumber; // Уникальный класс
+    td.classList.add(lessonIdClass); // Добавляем класс
+
+    // Проверим, нет ли уже номера, чтобы избежать дублирования при повторном запуске
+    if (!td.querySelector('.lesson-number')) {
+        var afterElement = document.createElement('span');
+        afterElement.textContent = "Урок " + lessonNumber;
+        afterElement.classList.add('lesson-number');
+        td.appendChild(afterElement);
+    }
 });
 
 
