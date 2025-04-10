@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+.title {
+margin-top: 40px !important;    
+line-height: 30px;
+}
+
 /*____________ШАПКА_________________*/
 .lesson-number {
   font-weight: bold; /* Делаем текст жирным */
