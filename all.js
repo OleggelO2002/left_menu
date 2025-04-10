@@ -494,7 +494,7 @@ tdElements.forEach(function(td, index) {
     // Проверим, нет ли уже номера, чтобы избежать дублирования при повторном запуске
     if (!td.querySelector('.lesson-number')) {
         var afterElement = document.createElement('span');
-        afterElement.textContent = "Урок " + lessonNumber;
+        afterElement.textContent = "Урок №" + lessonNumber;
         afterElement.classList.add('lesson-number');
         td.appendChild(afterElement);
     }
