@@ -16,6 +16,14 @@ color: #5D5C5C !important;
 .user-state-not_reached .lesson-number{
 background: #5D5C5C;
 }
+.user-state-not_reached .info{
+background: #DFDFDF !important;
+}
+.user-state-not_reached  .user-state-bg {
+background: #DFDFDF !important;    
+}
+
+
 
 /* Добавляем новые иконки через ::before */
 .menu-item .menu-item-icon {
