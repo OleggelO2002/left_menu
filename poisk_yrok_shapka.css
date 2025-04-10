@@ -311,7 +311,7 @@ flex-direction: row-reverse;
 }
 .gc-account-leftbar {
 width: 100vw !important;
-  
+}  
 .lesson-list li .title {
 font-family: 'Oranienbaum' !important;
 color: #292929!important;
@@ -319,7 +319,7 @@ font-size: 24px;
 margin-top: 60px;
 margin-bottom: 16px;
 }
-    }
+
 }
 
 
