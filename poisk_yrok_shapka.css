@@ -136,13 +136,14 @@ padding-left: 0;
 }  
 
 
-
+@media screen and (min-width: 768px) {
 .lesson-list li .title {
 font-family: 'Oranienbaum' !important;
 color: #292929!important;
 font-size: 30px;
 margin-top: 60px;
 margin-bottom: 16px;
+}
 }
 
 .lesson-list .description {
