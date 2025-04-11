@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 .user-state-not_reached .info::after {
 content: "";
@@ -99,8 +100,6 @@ content: "";
 .custom-submenu{
  margin-left: 40px;   
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 .menu-item a {
 box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.0) !important;
@@ -243,9 +242,6 @@ display: none !important;
 width: 60vw;
 margin-left: 100px;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 .training-row td{
 width: 100% !important;    
@@ -405,8 +401,7 @@ font-weight: 600;
 }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
 .error-message-text {
 color: #BF3939;
 margin-left: 5px;
