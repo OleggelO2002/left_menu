@@ -121,12 +121,20 @@ display: none;
 .lesson-list li a {
 background: #FFF4E2;
 }
+@media screen and (min-width: 768px) {
+.info{
+margin-left: 20px !important;    
+background: #FFF4E2 !important;
+background-color: #FFF4E2 !important;
+min-height: 140px;
+}
+@media screen and (max-width: 768px) {
 .info{
 margin-left: 20px !important;    
 background: #FFF4E2 !important;
 background-color: #FFF4E2 !important;
 min-height: 170px;
-
+}
 }
 .user-state-bg{
 background: #FFF4E2 !important;    
