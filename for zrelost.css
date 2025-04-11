@@ -279,7 +279,7 @@ border-radius: 15px;
   width: 100%;
 }
 .stream-table tr td:hover {
-background: #EDDFC8;
+background: #EDDFC8 !important;
 }
 .menu-item-profile .menu-item-icon {
 opacity: 1;
