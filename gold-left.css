@@ -7,7 +7,12 @@
   height: 24px !important;
   margin-right: 8px !important; /* Если был отступ */
 }
-
+.gc-account-user-submenu-bar.gc-account-user-submenu-bar-profile{
+z-index: 9999999 !important;
+}
+.gc-account-user-submenu-bar.gc-account-user-submenu-bar-notifications_button_small{
+z-index: 9999999 !important;
+}
 .menu-item a[title]::before {
   content: "";
   display: inline-block;
