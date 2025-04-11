@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 /* Добавляем новые иконки через ::before */
 .menu-item .menu-item-icon {
   opacity: 0;
@@ -74,8 +72,6 @@ content: "";
 .custom-submenu{
  margin-left: 40px;   
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 .menu-item a {
 box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.0) !important;
@@ -218,9 +214,6 @@ display: none !important;
 width: 60vw;
 margin-left: 100px;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 .training-row td{
 width: 100% !important;    
@@ -758,7 +751,6 @@ left: 250px !important;
 }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 /* Добавляем новые иконки через ::before */
 .menu-item .menu-item-icon {
   opacity: 0;
@@ -844,7 +836,6 @@ content: "";
  margin-left: 40px;   
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 .menu-item a {
 box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.0) !important;
