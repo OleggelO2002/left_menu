@@ -129,6 +129,7 @@ background: #FFF4E2 !important;
 background-color: #FFF4E2 !important;
 min-height: 140px;
 }
+}
 @media screen and (max-width: 768px) {
 .info{
 margin-left: 20px !important;    
