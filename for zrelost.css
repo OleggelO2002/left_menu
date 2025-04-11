@@ -255,15 +255,15 @@ width: 80% !important;
 
 .stream-title::before{
 top: -30px !important;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 17px;
-color: #FFFFFF; 
-background: #3D9889;
-padding: 6px 6px;
-border-radius: 5px;
+font-family: 'Montserrat'!important;
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 12px !important;
+line-height: 17px !important;
+color: #FFFFFF !important; 
+background: #3D9889 !important;
+padding: 6px 6px !important;
+border-radius: 5px !important;
 }
 
 .stream-table tr td{
