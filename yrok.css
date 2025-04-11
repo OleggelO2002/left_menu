@@ -457,7 +457,6 @@ height: 15px !important; /* Высота изображения */
 mask: url('https://static.tildacdn.com/tild3534-3839-4533-b364-616630356631/Arrow_14.svg') no-repeat center;
 background-color: #292929 !important; /* Тот самый "цвет" SVG */
 background-size: contain !important; /* Масштабирует изображение, чтобы оно полностью помещалось в элемент */
-margin-left: 5px !important; /* Отступ слева от псевдоэлемента */
 transform: scale(1.1) !important ;
 position: relative !important;
 top: 3px !important;
