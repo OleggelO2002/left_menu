@@ -19,12 +19,21 @@ line-height: 30px;
   padding: 6px 10px; /* 10px сверху и снизу, 5px слева и справа */
   border-radius: 5px;   
 }
-
+@media screen and (min-width: 768px) {
 .new-element-class {
 position: relative;
 top: 30px;
 box-sizing: border-box; /* Включаем паддинги и границы в расчет ширины */
 margin-bottom: 60px;
+}
+}
+@media screen and (max-width: 768px) {
+.new-element-class {
+position: relative;
+top: 80px;
+box-sizing: border-box; /* Включаем паддинги и границы в расчет ширины */
+margin-bottom: 60px;
+}
 }
 
 .logo-link img {
