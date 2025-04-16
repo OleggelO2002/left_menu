@@ -22,7 +22,8 @@ line-height: 30px;
 @media screen and (min-width: 768px) {
 .new-element-class {
 position: relative;
-top: 30px;
+margin-top: 30px;
+top: 0px;
 box-sizing: border-box; /* Включаем паддинги и границы в расчет ширины */
 margin-bottom: 60px;
 }
